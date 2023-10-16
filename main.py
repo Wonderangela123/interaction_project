@@ -10,7 +10,7 @@ all_m3s = []
 
 for rep in range(5):
     if __name__ == "__main__":    
-        data_folder = 'BRCA'
+        data_folder = 'ROSMAP'
         view_list = [1,2,3]
         num_epoch_pretrain = 500
         num_epoch = 2500
