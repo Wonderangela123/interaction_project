@@ -1,0 +1,7 @@
+MLP+COR+VCDN
+GCN+COR+VCDN (YES)
+GCN+SA+COR+VCDN (YES?)
+GCN+CA+VCDN (bad)
+GCN+CA(add target matrix, sum/mean)+MLP (YES)
+GCN+CA(add target matrix, remove QKV nn.linear)+MLP (NO, ACC and F1 are bad, but AUC is good)
+GCN+CA(add target matrix, concatenation)+MLP (best)
